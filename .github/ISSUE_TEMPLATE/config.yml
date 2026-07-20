@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security disclosure
+    url: https://quelpad.com
+    about: "Please do NOT open a public issue for vulnerabilities — email security@quelpad.com (PGP key on the website)."
+  - name: License & purchase questions
+    url: https://docs.quelpad.com/reference/faq/
+    about: "Refunds, activation, pre-purchase questions — email support@quelpad.com. The FAQ answers the common ones."
+  - name: Documentation
+    url: https://docs.quelpad.com
+    about: "Guides, reference, and troubleshooting for QuelPad."

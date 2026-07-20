@@ -1,0 +1,18 @@
+name: 📚 Documentation issue
+description: A typo, a wrong statement, or a missing page on docs.quelpad.com.
+labels: ["docs"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      placeholder: https://docs.quelpad.com/…
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong or missing?
+      description: Quote the sentence if it's a factual error — and if you know the correct behavior, say so.
+    validations:
+      required: true

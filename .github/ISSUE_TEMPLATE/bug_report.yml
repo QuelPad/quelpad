@@ -1,0 +1,47 @@
+name: 🐛 Bug report
+description: A crash, a wrong result, or something misbehaving in the app.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, and what went wrong?
+      placeholder: |
+        1. Connected to …
+        2. Ran a script that …
+        3. Expected … but got …
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS (Apple Silicon)
+        - Windows (x64)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: QuelPad version
+      description: Settings → About.
+      placeholder: e.g. 0.1.8
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Crash dump / console output
+      description: >
+        See "Where to find diagnostics" in the docs:
+        https://docs.quelpad.com/reference/troubleshooting/#where-to-find-diagnostics
+        — paste what you found. Please remove anything sensitive (connection
+        strings, table names you can't share).
+      render: text
+  - type: input
+    id: database
+    attributes:
+      label: Database & version (if relevant)
+      placeholder: e.g. PostgreSQL 16, SQLite file, Neon

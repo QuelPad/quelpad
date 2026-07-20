@@ -1,0 +1,20 @@
+name: 💡 Feature request
+description: Something QuelPad doesn't do yet that would earn its place in your day.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The task or question you hit, in your own words — the problem is more useful to us than a prescribed solution.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: How do you imagine it working? (optional)
+  - type: textarea
+    id: workaround
+    attributes:
+      label: What do you do today instead? (optional)
+      description: A workaround, another tool, or "I just don't".

@@ -2,6 +2,8 @@
 
 **The TypeScript scratchpad. Databases built in.**
 
+![QuelPad — a typed Fluent API query over a PostgreSQL connection, its rows rendered as a nested table under the editor, with the AI agent panel on the right](assets/quelpad-hero.png)
+
 QuelPad is a desktop scratchpad for TypeScript developers: query a real
 database with a typed Fluent API or raw SQL, transform the rows in plain
 TypeScript, and see every result rendered — sortable tables, charts, pivots,
